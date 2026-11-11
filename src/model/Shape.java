@@ -1,6 +1,6 @@
 package model;
 
-/** Абстрактна фігура: колір та обчислення площі. */
+
 public abstract class Shape implements Drawable, java.io.Serializable {
     private static final long serialVersionUID = 1L;
     private final String shapeColor;

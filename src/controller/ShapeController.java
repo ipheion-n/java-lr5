@@ -14,7 +14,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Arrays;
 
-/** Пов'язує модель і представлення: обробляє команди користувача. */
+
 public class ShapeController {
     private static final int SHAPES_COUNT = 12;
 

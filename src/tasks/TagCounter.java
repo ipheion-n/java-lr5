@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.regex.*;
 
-/** Завдання 4: частота HTML-тегів на сторінці за URL. */
+
 public class TagCounter {
     private static final Pattern TAG = Pattern.compile("<\\s*([a-zA-Z][a-zA-Z0-9-]*)");
 
@@ -31,14 +31,14 @@ public class TagCounter {
         return m;
     }
 
-    /** a) за зростанням тегів у лексикографічному порядку. */
+
     public static List<Map.Entry<String, Integer>> byName(Map<String, Integer> m) {
         List<Map.Entry<String, Integer>> l = new ArrayList<>(m.entrySet());
         l.sort(Map.Entry.comparingByKey());
         return l;
     }
 
-    /** b) за зростанням частоти появи (при рівності - за назвою). */
+    
     public static List<Map.Entry<String, Integer>> byFrequency(Map<String, Integer> m) {
         List<Map.Entry<String, Integer>> l = new ArrayList<>(m.entrySet());
         l.sort(Map.Entry.<String, Integer>comparingByValue().thenComparing(Map.Entry.comparingByKey()));

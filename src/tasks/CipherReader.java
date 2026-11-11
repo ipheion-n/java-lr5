@@ -4,7 +4,7 @@ import java.io.FilterReader;
 import java.io.IOException;
 import java.io.Reader;
 
-/** Дешифрування: код кожного символу зменшується на код ключового символу (обернена операція). */
+
 public class CipherReader extends FilterReader {
     private final int key;
 

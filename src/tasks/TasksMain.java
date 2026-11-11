@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.Scanner;
 
-/** Task 5 (завдання 1, 3, 4): консольне меню. Завдання 2 реалізовано в застосунку Main (MVC з Task 3). */
+
 public class TasksMain {
     private static Scanner sc;
 

@@ -2,10 +2,7 @@ package model;
 
 import java.util.Random;
 
-/**
- * Створює набір фігур. Значення беруться із заздалегідь підготовлених даних,
- * вибір — випадковий.
- */
+
 public class ShapeGenerator {
     private static final String[] COLORS = {"червоний", "синій", "зелений", "жовтий", "чорний", "білий"};
     private static final double[] SIZES = {1.5, 2.0, 2.5, 3.0, 4.0, 5.0, 6.0};

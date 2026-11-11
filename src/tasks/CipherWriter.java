@@ -4,11 +4,7 @@ import java.io.FilterWriter;
 import java.io.IOException;
 import java.io.Writer;
 
-/**
- * Шифрування: код кожного символу збільшується на код ключового символу.
- * Символи сурогатного діапазону (0xD800..0xDFFF) не змінюються, інші обчислюються за модулем 0xD800,
- * щоб результат завжди був коректним символом UTF-8 і шифр був оборотним.
- */
+
 public class CipherWriter extends FilterWriter {
     static final int MOD = 0xD800;
     private final int key;

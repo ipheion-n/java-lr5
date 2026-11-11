@@ -3,7 +3,7 @@ package tasks;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
-/** Методи шифрування та дешифрування файлу на основі FilterWriter / FilterReader. */
+
 public class CipherService {
 
     public static void encrypt(String in, String out, char key) throws IOException {
